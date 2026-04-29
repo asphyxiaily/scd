@@ -85,9 +85,10 @@ def main():
     else:
         tracker.load_progress()
 
-    print(f"\n{Colors.BOLD}{'='*60}")
-    print("scd - soundcloud downloader")
-    print(f"{'='*60}{Colors.ENDC}\n")
+    print(r" _______  _______ _____  ")
+    print(r" |______ |       |     \ ")
+    print(r" ______| |______ |_____/ ")
+    print(r" ")
 
     # graceful shutdown LMAO
     signal.signal(signal.SIGINT, signal_handler)
